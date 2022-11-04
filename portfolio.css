@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    background-color: darkred;
+    height: 5%;
+    width: 75%;
+    text-align: left;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-size: 800%;
+    font-family: monospace;
+    justify-content: center;
+    align-content: space-around;
+}
+
+html, body {
+    margin: 0;
+    height: 100%
+    
+}
+
+.flex-container {
+    display: flex;
+    background-color: bisque;
+    height: 60%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.about-me {
+    background-color:rgb(200, 21, 21);
+    width: 30%;
+    height: 90%
+}
+
+.resume {
+    background-color:rgb(200, 21, 21);
+    width: 30%;
+    height: 90%
+}
+
+.projects {
+    background-color:rgb(200, 21, 21);
+    width: 30%;
+    height: 90%
+}
