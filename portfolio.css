@@ -1,15 +1,19 @@
 .header {
     display: flex;
     background-color:rgb(0, 2, 143);
-    height: 3%;
-    
+    height: 30px;
     width: 100%;
-    text-align: left;
     flex-wrap: wrap;
-    font-size: 800%;
     font-family: monospace;
-    justify-content: center;
     align-content: space-around;
+    padding-left: 5%;
+    padding-left: 5%;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 200%;
+    text-align: left;
 }
 
 html, body {
@@ -59,7 +63,10 @@ html, body {
 }
 
 .navbar {
-    display: flex;
-    justify-content: center;
+   display: flex;
     align-content: space-between;
+    font-style: italic;
+   padding-right: 10%;
+   font-size: 150%;
+   color: aliceblue;
 }
