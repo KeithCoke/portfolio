@@ -1,5 +1,5 @@
 # portfolio
-
+![home page](/homepage.png)
 List of technologies were YouTube, MDN, and W3schools
 
 My users would be employers coming to see what I have to offer as a software engineer checking in on what I have acomplished my experience and getting an idea on my creativity and first hand work by navigating through my portfolio.

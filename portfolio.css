@@ -7,7 +7,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     align-content: space-around;
     padding-left: 5%;
-    padding-right: 10%;
+    padding-right: 5%;
     justify-content: space-between;
 }
 
@@ -25,7 +25,7 @@
     color: white;
   }
 
- body {
+ html, body {
     margin: 0;
     height: 100%;
     width: 100%;
@@ -33,13 +33,13 @@
     
 }
 
-html {
+/* html {
     margin: 0;
     height: 100%;
     width: 100%;
    
     
-}
+} */
 
 
 .intro {
@@ -81,8 +81,8 @@ html {
     font-style: italic;
     justify-content: right;
     font-size: 150%;
+    padding-top: .9%;
     
-    padding-top: 1.6%;
 }
 
  .navbar a:visited {
