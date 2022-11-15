@@ -33,14 +33,6 @@
     
 }
 
-/* html {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-   
-    
-} */
-
 
 .intro {
     display: flex;
@@ -148,22 +140,12 @@ color: rgb(217, 217, 217);
     /* -------------------------------------------------projects------------------------------------------------- */
 
     
-  /* .modal {
-    text-align: center;   
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px; 
-    text-align: center;
-
-   
-    
-  } */
   
   .modal {
     display:none;
     background-color: rgb(255, 254, 254);
     align-items: center;
     opacity: 1;
-    /* pointer-events: none; */
     position: fixed;
     height: 30%;
     width: 45%;
@@ -199,9 +181,7 @@ color: rgb(217, 217, 217);
    padding-top: 10%;
   }
 
-  
-  
-  /* The Close Button */
+
   .close {
     color: #aaa;
     float: right;

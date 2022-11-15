@@ -1,11 +1,16 @@
 
-document.getElementById('modalBtn').addEventListener('click',
-function(){
-document.querySelector('.modal').style.display = "flex";
-});
+// document.getElementById('modalBtn').addEventListener('click',
+// function(){
+// document.querySelector('.modal').style.display = "flex";
+// });
 
 var span = document.getElementsByClassName("close")[0];
 var modal = document.getElementById("modal");
+var btn = document.getElementById("modalBtn");
+
+btn.onclick = function() {
+  modal.style.display = "flex";
+}
 
 span.onclick = function() {
   modal.style.display = "none";
