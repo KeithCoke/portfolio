@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="../portfolio.css" rel="stylesheet" type="text/css">
-    <script src="../portfolio.js"></script>
+    <script src="../portfolio.js" defer></script>
 </head>
 <body>
     <header>
@@ -16,11 +16,25 @@
             </nav>
         </div>
     </header>
-    <div class="flex-container">
-        <button type="button" onclick="revealProjects()">Reveal Projects</button>
-        <p id="hiddenProject" style="display:none">Working on it come back later</p>
-        <div class="about-me">
-            <h1>Projects</h1>
-            <p>Nothing currently</p>
-        </body>
+    <div class="projects">
+        <!-- <button type="button" onclick="revealProjects()">Reveal Projects</button>
+        <p id="hiddenProject" style="display:none">Working on it come back later</p> -->
+        <button id="modalBtn">
+         Projects
+        </button>
+        <div class="modal-container" >
+         <div class="modal">
+             <h1>Current Projects</h1>
+             <p>nothing nothing nothing nothing nothing</p>
+             <button id="closeBtn">
+                 close
+             </button>
+         </div>
+        </div>
+      
+        
+            
+       
+        </div>
+    </body>
         </html>

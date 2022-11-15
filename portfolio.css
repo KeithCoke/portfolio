@@ -82,6 +82,7 @@
     justify-content: right;
     font-size: 150%;
     padding-top: .9%;
+
     
 }
 
@@ -100,7 +101,6 @@ color: rgb(217, 217, 217);
 }
  .navbar a {
     color: rgb(199, 199, 199);
-    /* text-decoration-style: ; */
     font-size: 70%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
@@ -145,4 +145,56 @@ color: rgb(217, 217, 217);
         border-radius: 10px;
     }
 
-    /* -------------------------------------------------RESUME------------------------------------------------- */
+    /* -------------------------------------------------projects------------------------------------------------- */
+
+    
+  .modal {
+    text-align: center;   
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px; 
+    text-align: center;
+
+   
+    
+  }
+  
+  .modal-container {
+    background-color: rgb(255, 254, 254);
+    align-items: center;
+    opacity: 1;
+    pointer-events: none;
+    position: fixed;
+    height: 30%;
+    width: 45%;
+    display:none;
+    border-radius: 10px;
+    border-color: black;
+    justify-content: center;
+  }
+
+  #modalBtn {
+    text-align: center;   
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px; 
+    text-align: center;
+    width: 40%;
+    justify-content: center;
+    height: 10%;
+  }
+
+  .closeBtn {
+    text-align: center;   
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px; 
+    text-align: center;
+  }
+
+  .projects {
+    display: flex;
+    background-color: azure;
+    height: 90%;
+    width: 100%;
+    justify-content: center;
+    align-content: space-between;
+   padding-top: 10%;
+  }
